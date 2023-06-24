@@ -13,66 +13,72 @@ body{
     justify-content: center;
     align-items: center;
     height: 100%;
-    background: rgb(32,78,74);
-   
+    background: linear-gradient(45deg, #493843, #CBBFBB );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     position: sticky;
     top: 0;
-    padding-bottom: 5px;
-    background-color: transparent;
+    padding-bottom: 0px;
+    column-gap: 5px;
+    background-color: #ff8439;
 }
 #name{
 
     /*background-color: #ff8439;*/
     text-align: center;
+  
     
   
 }
 #valiant{
     text-decoration: none;
-    color: #ECBA82;
+    color: red;
+    
 }
 #header-nav{
-
-
     display: flex;
     justify-content: center;
+    width: auto;
 
 }
 #header-nav ul{
     list-style: none;
-    overflow: hidden;
-
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
-    column-gap: 10px;
+    align-items: center;
+    column-gap: 5px;
+    row-gap: 0;
     
 }
 .menu-item{
     display: flex;
+    margin: 0;
     justify-content: center;
-    width: 60px;   
-    border-radius: 30px;
-    border: 0px solid transparent;
+    width: 80px; 
+   
+    background-color: #ff2855;
 }
 
-.menu-link{
+.menu-item a{
     text-decoration: none;
     color: #e6e1f3;
-    background-color: #73A6AD;
-    width: 100%;
-    text-align: center;
-    border-radius: 5px;
-    border: 0px solid transparent;
-  
+    background-color: red;
+    width: auto; 
+    text-align: center; 
+    font-size: 25px;
+    
+    /* display: block; */
+    
+    display: inline;
 }
 .menu-link:hover,.active-page{
     color: blueviolet;
@@ -88,7 +94,7 @@ main{
     padding: 0;
 }
 footer{
-    margin: 0 hei;
+    margin: 0;
     text-align: center;
     width: 100%;
     height: 20px auto;
